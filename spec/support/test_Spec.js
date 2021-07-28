@@ -11,4 +11,9 @@ describe("A suite is just a function", function() {
       expect(15).toBe(b / 3);
     });
 
+    it("Elevate 2 numbers", function() {  
+      b = 3;
+      expect(81).toBe(b ** 4);
+    });
+
   });
