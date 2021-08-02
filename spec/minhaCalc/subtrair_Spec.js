@@ -1,6 +1,6 @@
 describe('Suite de testes da funcionalidade subtração da minha calculadora', function(){
 
-	var minhaCalc = require('src/js/minhaCalc.js');
+	var minhaCalc = require('../../src/js/minhaCalc.js');
 
 	it('Deve subtrair dois numeros interios, 2 e 5, e retornar -3', function(){
 		expect(minhaCalc.subtrair(2, 5)).toEqual(-3);
@@ -17,4 +17,5 @@ describe('Suite de testes da funcionalidade subtração da minha calculadora', f
 	it('Deve subtrair dois numeros de ponto flutuante, 5.55 e 3.45, e retornar 2.10', function(){
 		expect(minhaCalc.subtrair(5.55, 3.45)).toEqual(2.10);
 	});
+	
 });
