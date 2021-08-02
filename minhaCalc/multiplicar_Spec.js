@@ -1,6 +1,6 @@
 describe('Suite de testes da funcionalidade multiplicar da minha calculadora', function(){
 
-	var minhaCalc = require('../src/js/minhaCalc.js');
+	var minhaCalc = require('src/js/minhaCalc.js');
 
 	it('Deve multiplicar dois numeros interios, 2 e 5, e retornar 6', function(){
 		expect(minhaCalc.multiplicar(2, 5)).toEqual(10);

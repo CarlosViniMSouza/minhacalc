@@ -1,6 +1,6 @@
 describe('Suite de testes da funcionalidade soma da minha calculadora', function(){
 
-	var minhaCalc = require('../src/js/minhaCalc.js');
+	var minhaCalc = require('src/js/minhaCalc.js');
 
 	it('Deve somar dois numeros interios, 2 e 5, e retornar 7', function(){
 		expect(minhaCalc.somar(2, 5)).toEqual(7);

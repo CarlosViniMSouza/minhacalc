@@ -1,6 +1,6 @@
 describe('Suite de testes da funcionalidade dividir da minha calculadora', function(){
 
-	var minhaCalc = require('../src/js/minhaCalc.js');
+	var minhaCalc = require('src/js/minhaCalc.js');
 
 	it('Deve dividir dois numeros interios, 60 e 10, e retornar 6', function(){
 		expect(minhaCalc.dividir(60, 10)).toEqual(6);
