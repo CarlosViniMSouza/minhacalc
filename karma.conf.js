@@ -1,6 +1,8 @@
 // Karma configuration
 // Generated on Mon Jul 26 2021 20:06:26 GMT-0300 (Horário Padrão de Brasília)
 
+const browserify = require("browserify")
+
 module.exports = function(config) {
   config.set({
 
@@ -25,7 +27,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://www.npmjs.com/search?q=keywords:karma-preprocessor
     preprocessors: {
-      'spec/**/*Spec.js':['browserify']
+      'spec/**/*Spec.js':['browserify'],
     },
 
 
