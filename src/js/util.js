@@ -56,6 +56,18 @@ function calcular() {
         case '*':
             res = minhaCalc.multiplicar(num1, num2);
             break;
+        case '^':
+            res = minhaCalc.exponenciacao(num1, num2);
+            break;
+        case 'raiz(2)':
+            res = minhaCalc.raizQuad(num1, num2);
+            break;
+        case 'raiz(3)':
+            res = minhaCalc.raizCub(num1, num2);
+        break;
+        case 'fact()':
+            res = minhaCalc.fatorial(num1, num2);
+            break;
     }
     res = res.toString();
     txtInput.value = res.length <= 10 ? res : res.substr(0, 10);
