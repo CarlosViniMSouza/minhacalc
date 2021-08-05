@@ -6,15 +6,15 @@ describe('Suite de testes da funcionalidade dividir da minha calculadora', funct
 		expect(minhaCalc.dividir(60, 10)).toEqual(6);
 	});
 
-	it('Deve dividir dois numeros de ponto flutuante, 3 e 1.5, e retornar 4.5', function(){
+	it('Deve dividir dois numeros de ponto flutuante, 4.5 e 1.5, e retornar 3', function(){
 		expect(minhaCalc.dividir(4.5, 1.5)).toEqual(3);
 	});
 
-	it('Deve dividir dois numeros de ponto flutuante, 15.55, 5, e retornar 3.11', function(){		
+	it('Deve dividir dois numeros de ponto flutuante, 15.55 e 5, e retornar 3.11', function(){		
         expect(minhaCalc.dividir(15.55, 5)).toEqual(3.11);
 	});
 
-	it('Deve dividir dois numeros de ponto flutuante, 15.5 e 2, e retornar 31.0', function(){		
+	it('Deve dividir dois numeros de ponto flutuante, 30.75, e 3, e retornar 10.25', function(){		
         expect(minhaCalc.dividir(30.75, 3)).toEqual(10.25);
 	});
 

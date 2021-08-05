@@ -2,7 +2,7 @@ describe('Suite de testes da funcionalidade multiplicar da minha calculadora', f
 
 	var minhaCalc = require('../../src/js/minhaCalc.js');
 
-	it('Deve multiplicar dois numeros interios, 2 e 5, e retornar 6', function(){
+	it('Deve multiplicar dois numeros interios, 2 e 5, e retornar 10', function(){
 		expect(minhaCalc.multiplicar(2, 5)).toEqual(10);
 	});
 
@@ -14,7 +14,7 @@ describe('Suite de testes da funcionalidade multiplicar da minha calculadora', f
         expect(minhaCalc.multiplicar(15.5, 2)).toEqual(31);
 	});
 
-	it('Deve multiplicar dois numeros de ponto flutuante, 15.5 e 2, e retornar 31.0', function(){		
+	it('Deve multiplicar dois numeros de ponto flutuante, 10.25 e 3, e retornar 30.75', function(){		
         expect(minhaCalc.multiplicar(10.25, 3)).toEqual(30.75);
 	});
 
