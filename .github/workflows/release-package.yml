@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 14
       - run: npm ci
-      - run: npm test
+      - run: npm test-jasmine
 
   publish-gpr:
     needs: build
