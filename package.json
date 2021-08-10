@@ -1,5 +1,5 @@
 {
-  "name": "minhacalc",
+  "name": "minhacalcpackage",
   "version": "1.0.0",
   "description": "[![Build Status](https://travis-ci.com/CarlosViniMSouza/minhacalc.svg?branch=master)](https://travis-ci.com/CarlosViniMSouza/minhacalc)",
   "main": "index.js",
